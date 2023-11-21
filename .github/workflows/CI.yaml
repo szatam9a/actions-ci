@@ -15,7 +15,7 @@ jobs:
         with:
           distribution:  temurin
           java-version: 17
-      - name: build with maven
-        run: mvn clean install
-      - name: rum tests
+#      - name: build with maven
+#        run: mvn clean install
+      - name: run tests
         run: mvn test
